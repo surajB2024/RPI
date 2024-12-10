@@ -1,0 +1,6 @@
+[Desktop Entry]
+Name=Logger
+Exec=/usr/local/bin/4
+Type=Application
+Terminal=false
+Icon=/home/sharukh/CIAP/icon.png  # Optional

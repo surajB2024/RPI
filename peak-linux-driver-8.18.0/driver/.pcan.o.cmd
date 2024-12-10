@@ -1,0 +1,1 @@
+savedcmd_/home/sharukh/peak-linux-driver-8.18.0/driver/pcan.o := ld -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments   -r -o /home/sharukh/peak-linux-driver-8.18.0/driver/pcan.o @/home/sharukh/peak-linux-driver-8.18.0/driver/pcan.mod 

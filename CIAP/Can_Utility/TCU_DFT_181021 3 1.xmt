@@ -1,0 +1,69 @@
+; F:\Sachin\Projects\TCU\CAN\TCU_DFT_181021.xmt
+; CAN messages saved by PCAN-View 4.2.0
+;
+; Columns descriptions:
+; ~~~~~~~~~~~~~~~~~~~~~
+; +Message ID
+; |            +Cycle time in ms (0=manual)
+; |            |  +Data length
+; |            |  |  +Frame type
+; |            |  |  |  +Message data
+; |            |  |  |  |
+18FEF100h    100  8  D 00h 00h 37h 00h 00h 00h 00h 00h ; Vehicle_Speed
+0CF00400h    100  8  D 00h 00h 00h C0h 12h 00h 00h 00h ; Engine_Speed(600)
+18FF5117h    100  8  D 80h 3Eh 00h 00h 00h 00h 00h 00h ; ODO_METER(1600)
+18FEFC00h    100  8  D 00h 19h 00h 00h 00h 00h 00h 00h  Paused ; CNG-8bit-10
+18FEFC00h    100  8  D 00h 3Eh 00h 00h 00h 00h 00h 00h  Paused ; CNG-8bit-25
+18FEFC00h    100  8  D 00h 7Dh 00h 00h 00h 00h 00h 00h  Paused ; CNG-8bit-50
+18FEFC00h    100  8  D 00h BBh 00h 00h 00h 00h 00h 00h  Paused ; CNG-8bit-75
+18FEFC00h    100  8  D 00h FAh 00h 00h 00h 00h 00h 00h  Paused ; CNG-8bit-100
+18FF5517h    100  8  D 00h 00h FEh 01h 00h 00h 00h 00h  Paused ; AFT - 10 bit-5
+18FEFC17h    100  8  D 00h 19h 00h 00h 00h 00h 00h 00h  Paused ; Diesel-8bit-10
+18FEFC17h    100  8  D 00h 3Eh 00h 00h 00h 00h 00h 00h  Paused ; Diesel-8bit-25
+18FEFC17h    100  8  D 00h 7Dh 00h 00h 00h 00h 00h 00h  Paused ; Diesel-8bit-50
+18FEFC17h    100  8  D 00h BBh 00h 00h 00h 00h 00h 00h  Paused ; Diesel-8bit-75
+18FEFC17h    100  8  D 00h FAh 00h 00h 00h 00h 00h 00h  Paused ; Diesel-8bit-100
+18FF5517h    100  8  D 00h 00h 00h 00h 00h 00h 00h 00h  Paused ; AFT - 10 bit-0
+18FF5517h    100  8  D 00h 00h 32h 00h 00h 00h 00h 00h  Paused ; AFT - 10 bit-0.5
+18FF5517h    100  8  D 00h 00h 64h 00h 00h 00h 00h 00h  Paused ; AFT - 10 bit-1
+18FF5517h    100  8  D 00h 00h 96h 00h 00h 00h 00h 00h  Paused ; AFT - 10 bit-1.5
+18FF5517h    100  8  D 00h 00h C8h 00h 00h 00h 00h 00h  Paused ; AFT - 10 bit-2
+18FF5517h    100  8  D 00h 00h FAh 00h 00h 00h 00h 00h ; AFT - 10 bit-2.5
+18FF5517h    100  8  D 00h 00h 2Ch 01h 00h 00h 00h 00h  Paused ; AFT - 10 bit-3
+18FF5517h    100  8  D 00h 00h 5Eh 01h 00h 00h 00h 00h  Paused ; AFT - 10 bit-3.5
+18FF5517h    100  8  D 00h 00h 90h 01h 00h 00h 00h 00h  Paused ; AFT - 10 bit-4
+18FF5517h    100  8  D 00h 00h C2h 01h 00h 00h 00h 00h  Paused ; AFT - 10 bit-4.5
+18FF5517h    100  8  D 00h 00h F4h 01h 00h 00h 00h 00h  Paused ; AFT - 10 bit-5
+18FF5517h    100  8  D 00h 00h FEh 01h 00h 00h 00h 00h  Paused ; AFT - 10 bit-5.1
+18FF5517h    100  8  D 00h 00h 26h FEh 00h 00h 00h 00h  Paused ; AFT - 10 bit-5.5
+18FF6221h    100  8  D 00h 00h 00h 00h 00h 00h 00h 00h  Paused ; SecondaryFuelTank-0
+18FF6221h    100  8  D 00h 00h 00h 00h 00h 32h 00h 00h  Paused ; SecondaryFuelTank-0.5
+18FF6221h    100  8  D 00h 00h 00h 00h 00h 64h 00h 00h ; SecondaryFuelTank-1
+18FF6221h    100  8  D 00h 00h 00h 00h 00h 96h 00h 00h  Paused ; SecondaryFuelTank-1.5
+18FF6221h    100  8  D 00h 00h 00h 00h 00h C8h 00h 00h  Paused ; SecondaryFuelTank-2
+18FF6221h    100  8  D 00h 00h 00h 00h 00h FAh 00h 00h  Paused ; SecondaryFuelTank-2.5
+18FF6221h    100  8  D 00h 00h 00h 00h 00h 2Ch 01h 00h  Paused ; SecondaryFuelTank-3
+18FF6221h    100  8  D 00h 00h 00h 00h 00h 5Eh 01h 00h  Paused ; SecondaryFuelTank-3.5
+18FF6221h    100  8  D 00h 00h 00h 00h 00h 90h 01h 00h  Paused ; SecondaryFuelTank-4
+18FF6221h    100  8  D 00h 00h 00h 00h 00h C2h 01h 00h  Paused ; SecondaryFuelTank-4.5
+18FF6221h    100  8  D 00h 00h 00h 00h 00h F4h 01h 00h  Paused ; SecondaryFuelTank-5
+18FF6221h    100  8  D 00h 00h 00h 00h 00h FEh 01h 00h  Paused ; SecondaryFuelTank-5.1
+18FF6221h    100  8  D 00h 00h 00h 00h 00h 26h FEh 00h  Paused ; SecondaryFuelTank-5.5
+18FE5600h    100  8  D 00h 00h 00h 00h 00h 00h 00h 00h  Paused ; Urea-0
+18FE5600h    100  8  D 19h 00h 00h 00h 00h 00h 00h 00h  Paused ; Urea-10%
+18FE5600h    100  8  D 3Eh 00h 00h 00h 00h 00h 00h 00h ; Urea-25%
+18FE5600h    100  8  D 7Dh 00h 00h 00h 00h 00h 00h 00h  Paused ; Urea-50%
+18FE5600h    100  8  D BBh 00h 00h 00h 00h 00h 00h 00h  Paused ; Urea-75%
+18FE5600h    100  8  D FAh 00h 00h 00h 00h 00h 00h 00h  Paused ; Urea-100%
+18FE5600h    100  8  D FCh 00h 00h 00h 00h 00h 00h 00h  Paused ; Urea-101%
+18FE5600h    100  8  D FEh 00h 00h 00h 00h 00h 00h 00h  Paused ; Urea-102%
+18F00521h    100  8  D 00h 00h 00h 7Ch 00h 00h 00h 00h ; Gear Skip-(-1)
+18F00521h    100  8  D 00h 00h 00h 7Dh 00h 00h 00h 00h  Paused ; Gear Skip-(0)
+18F00521h    100  8  D 00h 00h 00h 7Eh 00h 00h 00h 00h  Paused ; Gear Skip-(1)
+18F00521h    100  8  D 00h 00h 00h 7Fh 00h 00h 00h 00h  Paused ; Gear Skip-(2)
+18F00521h    100  8  D 00h 00h 00h 80h 00h 00h 00h 00h  Paused ; Gear Skip-(3)
+18F00521h    100  8  D 00h 00h 00h 81h 00h 00h 00h 00h  Paused ; Gear Skip-(4)
+18F00521h    100  8  D 00h 00h 00h 82h 00h 00h 00h 00h  Paused ; Gear Skip-(5)
+18F00521h    100  8  D 00h 00h 00h 83h 00h 00h 00h 00h  Paused ; Gear Skip-(6)
+18F00521h    100  8  D 00h 00h 00h 84h 00h 00h 00h 00h  Paused ; Gear Skip-(7)
+18F00521h    100  8  D 00h 00h 00h 85h 00h 00h 00h 00h  Paused ; Gear Skip-(8)

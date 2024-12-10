@@ -1,0 +1,18 @@
+ Steps to export tool chain or source for GUI where tool chain is dependent
+1. Create a Desktop autostart script in /etc/xdg/autostart/atculogger.desktop using below cmd
+ sudo gedit /etc/xdg/autostart/atculogger.desktop
+
+2. copy and past the script in /etc/xdg/autostart/atculogger.desktop file
+[Desktop Entry]
+Name=atculogger
+Type=Application
+Exec=bash -i /home/pi/Desktop/init.sh
+Icon=utilities-terminal
+Terminal=true
+Categories=Application;
+
+3. Add the below in init.sh script
+
+cd /home/Desktop/
+source venv/bin/activate
+python3 /home/Desktop/GUI.py

@@ -1,0 +1,1 @@
+savedcmd_/home/sharukh/peak-linux-driver-8.18.0/driver/pcan.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T arch/arm64/module.lds -o /home/sharukh/peak-linux-driver-8.18.0/driver/pcan.ko /home/sharukh/peak-linux-driver-8.18.0/driver/pcan.o /home/sharukh/peak-linux-driver-8.18.0/driver/pcan.mod.o;  true
